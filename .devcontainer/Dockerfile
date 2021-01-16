@@ -37,6 +37,15 @@ RUN apt-get update \
     && pip --disable-pip-version-check --no-cache-dir install requests \
     && pip --disable-pip-version-check --no-cache-dir install numpy \
     && pip --disable-pip-version-check --no-cache-dir install pandas \
+    && pip --disable-pip-version-check --no-cache-dir install branca \
+    && pip --disable-pip-version-check --no-cache-dir install folium \
+    && pip --disable-pip-version-check --no-cache-dir install retrying \
+    && pip --disable-pip-version-check --no-cache-dir install plotly \
+    && pip --disable-pip-version-check --no-cache-dir install nbsphinx \
+    && pip --disable-pip-version-check --no-cache-dir install coverage \
+    && pip --disable-pip-version-check --no-cache-dir install docopt \
+    && pip --disable-pip-version-check --no-cache-dir install coveralls \
+    && pip --disable-pip-version-check --no-cache-dir install datascience \
     && pip --disable-pip-version-check --no-cache-dir install scikit-learn \
     && pip --disable-pip-version-check --no-cache-dir install scikit-image \
     && pip --disable-pip-version-check --no-cache-dir install scipy \
