@@ -4,6 +4,12 @@ pillow
 requests
 numpy
 pandas
+folium
+ipywidgets
+bqplot
+nbinteract
+otter-grader
+okpy
 scikit-learn
 scikit-image
 scipy

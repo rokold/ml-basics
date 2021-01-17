@@ -32,6 +32,11 @@ RUN apt-get update \
     #
     # Install Python Libraries
     && pip --disable-pip-version-check --no-cache-dir install jupyter \ 
+    && pip --disable-pip-version-check --no-cache-dir install pylint \
+    && pip --disable-pip-version-check --no-cache-dir install otter-grader \
+    && pip --disable-pip-version-check --no-cache-dir install bqplot \
+    && pip --disable-pip-version-check --no-cache-dir install nbinteract \
+    && pip --disable-pip-version-check --no-cache-dir install okpy \
     && pip --disable-pip-version-check --no-cache-dir install matplotlib \
     && pip --disable-pip-version-check --no-cache-dir install pillow \	
     && pip --disable-pip-version-check --no-cache-dir install requests \
